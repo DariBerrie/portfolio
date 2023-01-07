@@ -7,7 +7,20 @@
       "startDate": "December 2022",
       "description": "A web app connecting urban stakeholders with an interactive approach built using Ruby on Rails, Bootstrap, Stimulus JS and MapBox API",
       "url": "http://ouicity.me",
-      "github": "https://github.com/DariBerrie/ouicity"
+      "github": "https://github.com/DariBerrie/ouicity",
+      "toolIcons": [
+        "devicon-ruby-plain colored",
+        "devicon-rails-plain colored",
+        "devicon-postgresql-plain colored",
+        "devicon-heroku-plain colored",
+        "devicon-html5-plain colored",
+        "devicon-css3-plain colored",
+        "devicon-sass-original colored",
+        "devicon-javascript-plain colored",
+        "devicon-bootstrap-plain colored",
+        "devicon-figma-plain colored",
+        "devicon-photoshop-plain colored"
+      ]
     },
     {
       "id": 2,
@@ -16,16 +29,37 @@
       "startDate": "November 2022",
       "description": "An Airbnb marketplace clone for fiber enthusiasts using Ruby on Rails, Bootstrap, JavaScript and Stripe API",
       "url": "http://loopy.website",
-      "github": "https://github.com/DariBerrie/loopyex"
+      "github": "https://github.com/DariBerrie/loopyex",
+      "toolIcons": [
+        "devicon-ruby-plain colored",
+        "devicon-rails-plain colored",
+        "devicon-postgresql-plain colored",
+        "devicon-heroku-plain colored",
+        "devicon-html5-plain colored",
+        "devicon-css3-plain colored",
+        "devicon-sass-original colored",
+        "devicon-javascript-plain colored",
+        "devicon-bootstrap-plain colored"
+      ]
     },
     {
       "id": 3,
-      "name": "The Burbs",
+      "name": "Evidens",
       "position": "Solo Developer",
       "startDate": "December 2022",
-      "description": "A blog app created over one day during a solo product sprint for France's WebDev professional certification using Ruby on Rails, Bootstrap and Javascript.",
+      "description": "A news/blog app created over one day during a solo product sprint for France's WebDev professional certification using Ruby on Rails, Bootstrap and Javascript.",
       "url": "https://github.com/DariBerrie/news-app",
-      "github": "https://github.com/DariBerrie/news-app"
+      "github": "https://github.com/DariBerrie/news-app",
+      "toolIcons": [
+        "devicon-ruby-plain colored",
+        "devicon-rails-plain colored",
+        "devicon-postgresql-plain colored",
+        "devicon-html5-plain colored",
+        "devicon-css3-plain colored",
+        "devicon-sass-original colored",
+        "devicon-javascript-plain colored",
+        "devicon-bootstrap-plain colored"
+      ]
     },
     {
       "id": 4,
@@ -34,7 +68,16 @@
       "startDate": "January 2023",
       "description": "A visual collection of the my yarn inventory built with Node.js and React",
       "url": "#",
-      "github": "#"
+      "github": "#",
+      "toolIcons": [
+        "devicon-react-original colored",
+        "devicon-nodejs-plain colored",
+        "devicon-html5-plain colored",
+        "devicon-css3-plain colored",
+        "devicon-sass-original colored",
+        "devicon-javascript-plain colored",
+        "devicon-bootstrap-plain colored"
+      ]
     }
   ],
   "jobs": [

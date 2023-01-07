@@ -12,16 +12,15 @@ const App = () => {
   const [projects, setProjects] = useState([])
   const [jobs, setJobs] = useState([])
   const [interests, setInterests] = useState([])
-  const baseUrl = 'http://localhost:3002/'
 
   const hook = () => {
-    axios.get({baseUrl}+'projects').then(response => {
+    axios.get('http://localhost:3002/projects').then(response => {
       setProjects(response.data)
     })
-    axios.get({baseUrl}+'jobs').then(response => {
+    axios.get('http://localhost:3002/jobs').then(response => {
       setJobs(response.data)
     })
-    axios.get({baseUrl}+'interests').then(response => {
+    axios.get('http://localhost:3002/interests').then(response => {
       setInterests(response.data)
     })
   }

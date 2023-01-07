@@ -1,0 +1,30 @@
+.card {
+  width: 400px;
+  height: 290px;
+  padding: 24px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  border-radius: 24px;
+  border-color: rgb(240, 239, 239) !important;
+
+  &:hover {
+    box-shadow: 0 .125rem .25rem rgba(black, .075);
+  }
+
+  h4 {
+    letter-spacing: 2px;
+  }
+
+  .dev-skills{
+    position: absolute;
+    bottom: 16px;
+    display: flex;
+    flex-direction: row;
+
+    i {
+      font-size:28px;
+      margin-right: 4px;
+    }
+  }
+
+}

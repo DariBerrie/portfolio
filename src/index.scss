@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400&family=Quattrocento:wght@400;700&display=swap');
+@import "./stylesheets/project.scss";
+@import "./stylesheets/header.scss";
+@import "./stylesheets/job.scss";
+@import "./stylesheets/interests.scss";
+@import "./stylesheets/skills.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Quattrocento', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+a {
+  color: #8c52ff;
+  text-decoration: none;
+}
+
+.job-dates {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+}
+.container {
+  padding-top: 64px;
+}
+.section-container {
+  margin: 32px 0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

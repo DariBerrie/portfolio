@@ -1,0 +1,16 @@
+.card.job {
+  width: 900px;
+  height: 200px;
+  margin-bottom: 24px;
+
+  .job-details {
+    width:70%;
+    padding-right: 16px;
+    border-right: 1px solid rgb(235, 234, 234);
+  }
+
+  .job-takeaway {
+    padding-left: 16px;
+    width: 30%;
+  }
+}

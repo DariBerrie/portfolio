@@ -1,8 +1,8 @@
 const Languages = () => {
   return (
   <div className="card language-skills">
-      <p>🇺🇸 : Native speaker</p>
-      <p>🇫🇷 : Bilingual</p>
+      <p>🇺🇸 : Native speaker <br />
+      🇫🇷 : Bilingual</p>
     </div>
   )
 }

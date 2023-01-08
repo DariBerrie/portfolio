@@ -6,13 +6,12 @@ import Project from "./components/Project"
 import Job from "./components/Job"
 import Skills from './components/Skills'
 import Languages from './components/Languages'
-import Interest from './components/Interest'
+import Interests from './components/Interests'
 import School from './components/School'
 
 const App = () => {
   const [projects, setProjects] = useState([])
   const [jobs, setJobs] = useState([])
-  const [interests, setInterests] = useState([])
   const [schools, setSchools] = useState([])
 
   const hook = () => {
@@ -21,9 +20,6 @@ const App = () => {
     })
     axios.get('http://localhost:3002/jobs').then(response => {
       setJobs(response.data)
-    })
-    axios.get('http://localhost:3002/interests').then(response => {
-      setInterests(response.data)
     })
     axios.get('http://localhost:3002/schools').then(response => {
       setSchools(response.data)
@@ -60,15 +56,9 @@ const App = () => {
           </div>
           <h2>LANGUAGES</h2>
           <Languages />
+          <h2>INTERESTS</h2>
+          <Interests />
         </div>
-      </div>
-
-      <div className="d-flex flex-column align-items-center section-container">
-        <h2 className="mb-4">INTERESTS</h2>
-        <ul id="interests-list">
-        {interests.map(interest =>
-          <Interest key={interest.id} interest={interest} />)}
-        </ul>
       </div>
       <p className="text-center">Built by me with ♥, React & Node.js</p>
     </div>

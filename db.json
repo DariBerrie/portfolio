@@ -20,7 +20,8 @@
         "devicon-bootstrap-plain colored",
         "devicon-figma-plain colored",
         "devicon-photoshop-plain colored"
-      ]
+      ],
+      "img": "ouicity-horizontal.png"
     },
     {
       "id": 2,
@@ -40,7 +41,8 @@
         "devicon-sass-original colored",
         "devicon-javascript-plain colored",
         "devicon-bootstrap-plain colored"
-      ]
+      ],
+      "img": "loopy-horizontal.png"
     },
     {
       "id": 3,
@@ -59,7 +61,8 @@
         "devicon-sass-original colored",
         "devicon-javascript-plain colored",
         "devicon-bootstrap-plain colored"
-      ]
+      ],
+      "img": "evidens-horizontal.png"
     },
     {
       "id": 4,
@@ -77,7 +80,8 @@
         "devicon-sass-original colored",
         "devicon-javascript-plain colored",
         "devicon-bootstrap-plain colored"
-      ]
+      ],
+      "img": "ouicity-horizontal.png"
     }
   ],
   "jobs": [

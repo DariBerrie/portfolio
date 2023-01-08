@@ -1,4 +1,3 @@
-import { config } from './Constants'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import Contact from "./components/Contact"
@@ -17,7 +16,7 @@ const App = () => {
 
 
   const hook = () => {
-    const url = config.url.API_URL
+    const url = 'https://portfolio-api-um8g.onrender.com'
 
     axios.get(`${url}/projects`).then(response => {
       setProjects(response.data)

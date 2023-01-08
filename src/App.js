@@ -1,3 +1,4 @@
+import { config } from './Constants'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import Contact from "./components/Contact"
@@ -14,14 +15,17 @@ const App = () => {
   const [jobs, setJobs] = useState([])
   const [schools, setSchools] = useState([])
 
+
   const hook = () => {
-    axios.get('http://www.dari.codes/projects').then(response => {
+    const url = config.url.API_URL
+
+    axios.get(`${url}/projects`).then(response => {
       setProjects(response.data)
     })
-    axios.get('http://www.dari.codes/jobs').then(response => {
+    axios.get(`${url}/jobs`).then(response => {
       setJobs(response.data)
     })
-    axios.get('http://www.dari.codes/schools').then(response => {
+    axios.get(`${url}/schools`).then(response => {
       setSchools(response.data)
     })
   }

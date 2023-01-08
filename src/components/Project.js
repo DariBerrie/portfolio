@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 const Project = ({project}) => {
 
   const handleMouseEnter = (event) => {

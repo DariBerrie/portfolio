@@ -15,13 +15,13 @@ const App = () => {
   const [schools, setSchools] = useState([])
 
   const hook = () => {
-    axios.get('http://localhost:3002/projects').then(response => {
+    axios.get('http://www.dari.codes/projects').then(response => {
       setProjects(response.data)
     })
-    axios.get('http://localhost:3002/jobs').then(response => {
+    axios.get('http://www.dari.codes/jobs').then(response => {
       setJobs(response.data)
     })
-    axios.get('http://localhost:3002/schools').then(response => {
+    axios.get('http://www.dari.codes/schools').then(response => {
       setSchools(response.data)
     })
   }

@@ -2,9 +2,17 @@
   position:absolute;
   width: 200px;
   top: 14px;
-  right:-130px;
+  right:-142px;
 }
-
+.card {
+  h5 {
+    font-weight: 500;
+  }
+}
 .card.language-skills {
   height: 116px;
+}
+
+.card.school {
+  height: 320px;
 }

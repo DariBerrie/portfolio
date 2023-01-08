@@ -139,5 +139,22 @@
       "id": 8,
       "name": "Travel"
     }
+  ],
+  "schools": [
+    {
+      "id": 1,
+      "name": "Le Wagon",
+      "diploma": "Full-Stack Web Development Certificate"
+    },
+    {
+      "id": 2,
+      "name": "University of the People",
+      "diploma": "Associate's in Computer Science"
+    },
+    {
+      "id": 3,
+      "name": "American University of Paris",
+      "diploma": "Bachelor's in Global Communications"
+    }
   ]
 }

@@ -1,9 +1,9 @@
 import Summary from "./Summary"
-import gsap from 'gsap'
+// import { gsap } from 'gsap'
 
 const Header = () => {
-  gsap.from("#name", {y: -100, duration: 1})
-  gsap.from("#title", {x: -200, duration: .5})
+  // gsap.from("#name", {y: -100, duration: 1})
+  // gsap.from("#title", {x: -200, duration: .5})
 
   return (
     <div id="header">

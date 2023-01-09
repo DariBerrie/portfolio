@@ -1,8 +1,8 @@
 #asterik-img {
   position:absolute;
-  width: 200px;
-  top: 14px;
-  right:-142px;
+  width: 175px;
+  top: 17px;
+  right:-120px;
 }
 .card {
   h5 {
@@ -13,6 +13,35 @@
   height: 100px;
 }
 
+.card.interests {
+  height: 100px;
+}
+
 .card.school {
   height: 320px;
+}
+@media(max-width:400px) {
+  .card.tech-skills {
+    width: 90%;
+    height: auto;
+  }
+  .card.language-skills {
+    width: 90%;
+    height: 100px;
+  }
+  .card.interests {
+    width: 90%;
+    height: 120px;
+  }
+
+  .card.school {
+    width:90%;
+    height: 350px;
+  }
+  #asterik-img {
+    position:absolute;
+    width: 175px;
+    top: 76px;
+    right:-30px;
+  }
 }

@@ -10,14 +10,42 @@
   }
 }
 
+#heading {
+  position: relative;
+}
+
 ul#contact-list {
-  position:absolute;
-  top: 5%;
-  right: 15%;
+  margin: 0;
+  margin-top: -24px;
+  margin-bottom: 36px;
+  padding: 0;
 
   li {
-    display:inline;
-    margin: 16px;
+    display: inline;
+    margin-right: 16px;
     font-size: 1em;
   }
+}
+
+@media(min-width: 374px) {
+  #header {
+    width: 90%;
+    h1{
+      font-size: 3.75em;
+    }
+    h2 {
+      font-family: 'Quattrocento', serif;
+      letter-spacing: 1px;
+    }
+    p {
+      font-size: 1.25em;
+    }
+   }
+}
+
+@media(min-width: 1300px ) {
+  ul#contact-list {
+    align-self: flex-end;
+  }
+
 }

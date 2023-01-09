@@ -1,7 +1,7 @@
 const Interests = () => {
   return (
-    <div className="card language-skills">
-      <p>Dog Whispering | Knitting | Cooking<br /> Cycling | Ski | Dance | Golf | Travel</p>
+    <div className="card interests">
+      <p>Dog Whispering | Knitting | Cooking  | Cycling | Ski | Dance | Golf | Travel</p>
     </div>
   )
 }

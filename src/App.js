@@ -14,9 +14,9 @@ const App = () => {
   const [jobs, setJobs] = useState([])
   const [schools, setSchools] = useState([])
 
-
   const hook = () => {
     const url = 'https://portfolio-api-um8g.onrender.com'
+    // const url = 'http://localhost:3001'
 
     axios.get(`${url}/projects`).then(response => {
       setProjects(response.data)
@@ -32,24 +32,27 @@ const App = () => {
 
   return (
     <div className="container">
-      <Contact />
-      <Header />
-      <div className="d-flex flex-row justify-content-around">
-        <div className="col-8 section-container">
-          <h2>PROJECTS</h2>
-          <div className="d-flex flex-row flex-wrap">
+
+      <div id="heading" class="d-flex flex-column align-items-start">
+        <Contact />
+        <Header />
+      </div>
+      <div className="row d-flex flex-row justify-content-around">
+        <div id="experience-container" className="col-md-12 col-lg-8 d-flex flex-column align-items-center">
+          <h2 className = "my-4">PROJECTS</h2>
+          <div className="row d-flex align-items-center">
             {projects.map(project =>
               <Project key={project.id} project={project} /> )}
           </div>
-          <div className="d-flex flex-column align-items-center section-container">
+          <div id="jobs-container" className="d-flex flex-column align-items-center">
             <img id="people-person-img" src="people-person-img.png" alt="I'm a human essential oil diffuser!" />
-            <h2 className="mb-4">PROFESSIONAL EXPERIENCE</h2>
+            <h2 className="my-4">PROFESSIONAL EXPERIENCE</h2>
             {jobs.map(job =>
               <Job key={job.id} job={job} />)}
           </div>
         </div>
-        <div className="col-4 section-container">
-          <h2>TECHNICAL SKILLS</h2>
+        <div id="skills-container" className="col-md-12 col-lg-4 d-flex flex-column align-items-center">
+          <h2 className="my-3">TECHNICAL SKILLS</h2>
           <Skills />
           <h2>EDUCATION</h2>
           <div className="card school">
@@ -63,7 +66,7 @@ const App = () => {
           <Interests />
         </div>
       </div>
-      <p className="text-center">Built by me with ♥, React & Node.js</p>
+      <p className="text-center">Built by me with <span style={{color: '#8c52ff'}}>♥</span>, React & Node.js</p>
     </div>
   )
 }

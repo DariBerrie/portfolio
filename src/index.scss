@@ -38,14 +38,25 @@ p {
 a {
   color: #8c52ff;
   text-decoration: none;
+  &:hover {
+    color: #d1bdf8;
+  }
 }
 
 .container {
   padding-top: 64px;
 }
-.section-container {
-  position:relative;
-  margin: 32px 0px;
+
+#experience-container {
+  h2{
+    text-align: center;
+  }
+}
+
+#skills-container {
+  h2 {
+    text-align: center;
+  }
 }
 
 code {

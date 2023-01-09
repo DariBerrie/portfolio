@@ -1,0 +1,164 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Ouicity",
+      "position": "Lead Developer",
+      "startDate": "December 2022",
+      "description": "A web app connecting urban stakeholders with an interactive approach using MapBox API",
+      "url": "http://ouicity.me",
+      "github": "https://github.com/DariBerrie/ouicity",
+      "toolIcons": [
+        "devicon-ruby-plain colored",
+        "devicon-rails-plain colored",
+        "devicon-postgresql-plain colored",
+        "devicon-heroku-plain colored",
+        "devicon-html5-plain colored",
+        "devicon-css3-plain colored",
+        "devicon-sass-original colored",
+        "devicon-javascript-plain colored",
+        "devicon-bootstrap-plain colored",
+        "devicon-figma-plain colored",
+        "devicon-photoshop-plain colored"
+      ],
+      "img": "ouicity-horizontal.png"
+    },
+    {
+      "id": 2,
+      "name": "Loopy",
+      "position": "Lead Developer",
+      "startDate": "November 2022",
+      "description": "An Airbnb marketplace clone for fiber enthusiasts using Stripe API",
+      "url": "http://www.loopy.website",
+      "github": "https://github.com/DariBerrie/loopyex",
+      "toolIcons": [
+        "devicon-ruby-plain colored",
+        "devicon-rails-plain colored",
+        "devicon-postgresql-plain colored",
+        "devicon-heroku-plain colored",
+        "devicon-html5-plain colored",
+        "devicon-css3-plain colored",
+        "devicon-sass-original colored",
+        "devicon-javascript-plain colored",
+        "devicon-bootstrap-plain colored"
+      ],
+      "img": "loopy-horizontal.png"
+    },
+    {
+      "id": 3,
+      "name": "Evidens",
+      "position": "Solo Developer",
+      "startDate": "December 2022",
+      "description": "A news/blog app created over one day during a solo product sprint for France's WebDev professional certification",
+      "url": "https://github.com/DariBerrie/news-app",
+      "github": "https://github.com/DariBerrie/news-app",
+      "toolIcons": [
+        "devicon-ruby-plain colored",
+        "devicon-rails-plain colored",
+        "devicon-postgresql-plain colored",
+        "devicon-html5-plain colored",
+        "devicon-css3-plain colored",
+        "devicon-sass-original colored",
+        "devicon-javascript-plain colored",
+        "devicon-bootstrap-plain colored"
+      ],
+      "img": "evidens-horizontal.png"
+    },
+    {
+      "id": 4,
+      "name": "Maille Stash",
+      "position": "Solo Developer",
+      "startDate": "January 2023",
+      "description": "A visual collection of the my yarn inventory",
+      "url": "#",
+      "github": "#",
+      "toolIcons": [
+        "devicon-react-original colored",
+        "devicon-nodejs-plain colored",
+        "devicon-html5-plain colored",
+        "devicon-css3-plain colored",
+        "devicon-sass-original colored",
+        "devicon-javascript-plain colored",
+        "devicon-bootstrap-plain colored"
+      ],
+      "img": "ouicity-horizontal.png"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Customer Happiness Manager",
+      "company": "Reedsy",
+      "dates": "2020 to present",
+      "description": "Providing support to authors and creative professionals on the platform while optimizing conversion. Created new standards for tracking conversion and analyzing data from reviews and Net Promoter Scores.",
+      "takeaway": "Listening & understanding | Strong written communication | Presentation | Problem-solving | Research | Dispute Resolution "
+    },
+    {
+      "id": 2,
+      "title": "Guest Relations Agent & Manager",
+      "company": "Club Med Resorts",
+      "dates": "2017-2019",
+      "description": "Partenered with resort teams to ensure a positive guest experience while meeting sales goals and KPIs in Florida and the French Alps.",
+      "takeaway": "Team management | Adaptable | Quick and effective under pressure | Empathetic | Collaboration | Creativity"
+    },
+    {
+      "id": 3,
+      "title": "Digital Media Manager",
+      "company": "Club Med Resorts",
+      "dates": "2015-2017",
+      "description": "Oversaw the digital communication and social media accounts for top resorts in Florida, Mexico and Guadelope. Transitioned resorts to an information and promotional resort television channel.",
+      "takeaway": "Storytelling | Aesthetic presentation | Resourcefulness | Technical aptitude | Self-directed"
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "name": "Dog Whispering"
+    },
+    {
+      "id": 2,
+      "name": "Knitting"
+    },
+    {
+      "id": 3,
+      "name": "Cooking"
+    },
+    {
+      "id": 4,
+      "name": "Cycling"
+    },
+    {
+      "id": 5,
+      "name": "Ski"
+    },
+    {
+      "id": 6,
+      "name": "Dance"
+    },
+    {
+      "id": 7,
+      "name": "Golf"
+    },
+    {
+      "id": 8,
+      "name": "Travel"
+    }
+  ],
+  "schools": [
+    {
+      "id": 1,
+      "name": "Le Wagon",
+      "diploma": "Full-Stack Web Development Certificate"
+    },
+    {
+      "id": 2,
+      "name": "University of the People",
+      "diploma": "Associate's in Computer Science"
+    },
+    {
+      "id": 3,
+      "name": "American University of Paris",
+      "diploma": "Bachelor's in Global Communications"
+    }
+  ]
+}

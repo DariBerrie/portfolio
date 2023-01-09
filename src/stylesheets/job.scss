@@ -1,4 +1,5 @@
 .card.job {
+  position:relative;
   width: 828px;
   height: 250px;
   margin-bottom: 24px;
@@ -8,24 +9,46 @@
     font-weight: 300;
     font-size: 1.25em;
   }
+}
 
-  .job-details {
-    width:70%;
-    padding-right: 16px;
-    border-right: 1px solid rgb(235, 234, 234);
+@media(min-width:374px) {
+  .card.job {
+    width: 90%;
+    height: auto;
+    margin-bottom: 24px;
   }
-
   .job-takeaway {
-    padding-left: 16px;
-    width: 30%;
+    padding-top: 16px;
+    border-top: 1px solid rgb(235, 234, 234)
+  }
+  #people-person-img {
+    visibility:hidden;
   }
 }
 
-#people-person-img {
-  position: absolute;
-  width:200px;
-  top: 64px;
-  left: -174px;
-  z-index:1;
-
+@media(min-width:1300px) {
+  .card.job {
+    width: 828px;
+    height: 250px;
+  }
+  .job-details {
+    padding-right: 8px;
+  }
+  .job-takeaway {
+    padding-top: 0;
+    border-top: 0;
+    padding-left: 16px;
+    border-left: 1px solid rgb(235, 234, 234);
+  }
+  #jobs-container {
+    position:relative;
+    #people-person-img {
+      visibility:visible;
+      position: absolute;
+      width:200px;
+      top: -24px;
+      left: -100px;
+      z-index:1;
+    }
+  }
 }

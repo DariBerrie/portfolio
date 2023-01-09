@@ -1,11 +1,55 @@
+@media(min-width:300px) {
+  .projects {
+    display: inline-block;
+  }
+  .card {
+    position:relative;
+    width: 350px;
+    height: 290px;
+    padding: 1.5em;
+    margin-right:0;
+    margin-bottom: 2em;
+    border-radius: 1.5em;
+    border-color: rgb(240, 239, 239) !important;
+
+    &:hover {
+      box-shadow: 0 .125rem .25rem rgba(black, .075);
+    }
+
+    h4 {
+      letter-spacing: 2px;
+    }
+
+    .dev-skills {
+      position: absolute;
+      bottom: 16px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      i {
+        font-size:28px;
+        margin-right: 4px;
+      }
+    }
+  }
+}
+
+@media(min-width:800px){
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
 .card {
   position:relative;
   width: 400px;
   height: 290px;
-  padding: 24px;
+  padding: 1.5em;
   margin-right:0;
-  margin-bottom: 24px;
-  border-radius: 24px;
+  border-radius: 1.5em;
   border-color: rgb(240, 239, 239) !important;
 
   &:hover {
@@ -21,6 +65,7 @@
     bottom: 16px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
     i {
       font-size:28px;
@@ -35,15 +80,4 @@
   font-size: 1.25em;
   margin-bottom: 4px;
 }
-
-@media(min-width:374px) {
-  .dev-skills {
-    flex-wrap: wrap;
-  }
-}
-
-@media(min-width:800px) {
-  .card.project {
-    margin-right:24px;
-  }
 }

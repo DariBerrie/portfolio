@@ -1,5 +1,4 @@
 #header {
- width: 80%;
   h2 {
     font-family: 'Quattrocento', serif;
     letter-spacing: 1px;
@@ -15,15 +14,21 @@
 }
 
 ul#contact-list {
+  position:fixed;
+  background-color: white;
   margin: 0;
   margin-top: -24px;
   margin-bottom: 36px;
-  padding: 0;
+  border-radius:8px;
+  padding: 8px;
+  z-index: 1;
+  right:1em;
 
   li {
     display: inline;
     margin-right: 16px;
     font-size: 1em;
+    padding: 0;
   }
 }
 

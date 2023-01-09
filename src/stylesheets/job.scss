@@ -10,22 +10,6 @@
     font-size: 1.25em;
   }
 }
-
-@media(min-width:374px) {
-  .card.job {
-    width: 90%;
-    height: auto;
-    margin-bottom: 24px;
-  }
-  .job-takeaway {
-    padding-top: 16px;
-    border-top: 1px solid rgb(235, 234, 234)
-  }
-  #people-person-img {
-    visibility:hidden;
-  }
-}
-
 @media(min-width:1300px) {
   .card.job {
     width: 828px;
@@ -45,9 +29,69 @@
     #people-person-img {
       visibility:visible;
       position: absolute;
-      width:200px;
-      top: -24px;
-      left: -100px;
+      width:230px;
+      top: 0em;
+      right: 4em;
+      z-index:1;
+    }
+  }
+}
+@media(min-width:300px) {
+  .card.job {
+    width: 350px;
+    height: auto;
+    margin-bottom: 24px;
+  }
+  .job-takeaway {
+    padding-top: 16px;
+    border-top: 1px solid rgb(235, 234, 234)
+  }
+  #people-person-img {
+    visibility:hidden;
+  }
+  #jobs-container {
+    position:relative;
+    #people-person-img {
+      visibility:hidden;
+      position: absolute;
+      width:230px;
+      top: -5em;
+      right: -4em;
+      z-index:1;
+    }
+  }
+}
+
+@media(min-width:768px) {
+  .card.job {
+    width: 760px;
+    height: auto;
+    margin-bottom: 24px;
+  }
+}
+
+@media(min-width:900px) {
+  .card.job {
+    width: 828px;
+    height: 250px;
+  }
+  .job-details {
+    padding-right: 8px;
+  }
+  .job-takeaway {
+    padding-top: 0;
+    border-top: 0;
+    padding-left: 16px;
+    border-left: 1px solid rgb(235, 234, 234);
+  }
+  #jobs-container {
+    position:relative;
+    #people-person-img {
+      visibility:visible;
+      position: absolute;
+      width:230px;
+      top: -4em;
+      right: 4em;
       z-index:1;
     }
   }

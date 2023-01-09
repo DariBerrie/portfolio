@@ -35,7 +35,7 @@ p {
   font-size: 1.05em;
 }
 
-a {
+a, .nav-link {
   color: #8c52ff;
   text-decoration: none;
   &:hover {
@@ -45,6 +45,7 @@ a {
 
 .container {
   padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 #experience-container {

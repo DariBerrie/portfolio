@@ -1,7 +1,8 @@
 const Interests = () => {
   return (
     <div className="card interests">
-      <p>Dog Whispering | Knitting | Cooking  | Cycling | Ski | Dance | Golf | Travel</p>
+      <h2>INTERESTS</h2>
+      <p>D🐶g Whispering | Knitting | Co🍳king  | Cycling | Ski | Dan💃🏽e | Golf | Tr🗺vel</p>
     </div>
   )
 }

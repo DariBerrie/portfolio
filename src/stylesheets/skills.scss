@@ -1,47 +1,37 @@
 #asterik-img {
   position:absolute;
   width: 175px;
-  top: 17px;
-  right:-120px;
+  top: 10em;
+  left: -8.75em;
+  z-index:1;
 }
-.card {
-  h5 {
-    font-weight: 500;
-  }
-}
-.card.language-skills {
-  height: 100px;
+.card h5 {
+  font-weight: 500;
 }
 
-.card.interests {
-  height: 100px;
+.card.tech-skills {
+  width: 350px;
+  height: 430px;
+  margin: 0 1em;
+  margin-bottom: 2em;
 }
 
 .card.school {
-  height: 320px;
+  width: 350px;
+  height: 380px;
+  margin: 0 1em;
+  margin-bottom: 2em;
 }
-@media(max-width:400px) {
-  .card.tech-skills {
-    width: 90%;
-    height: auto;
-  }
-  .card.language-skills {
-    width: 90%;
-    height: 100px;
-  }
-  .card.interests {
-    width: 90%;
-    height: 120px;
-  }
 
-  .card.school {
-    width:90%;
-    height: 350px;
-  }
-  #asterik-img {
-    position:absolute;
-    width: 175px;
-    top: 76px;
-    right:-30px;
-  }
+.card.language-skills {
+  width: 350px;
+  height: 140px;
+  margin: 0 1em;
+  margin-bottom: 2em;
+}
+
+.card.interests {
+  width: 350px;
+  height: 140px;
+  margin: 0 1em;
 }

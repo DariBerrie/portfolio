@@ -21,8 +21,8 @@ const App = () => {
   const exp_sec = useRef(null)
 
   const hook = () => {
-    // const url = 'https://portfolio-api-um8g.onrender.com'
-    const url = 'http://localhost:3001'
+    const url = 'https://portfolio-api-um8g.onrender.com'
+    // const url = 'http://localhost:3001'
 
     axios.get(`${url}/projects`).then(response => {
       setProjects(response.data)

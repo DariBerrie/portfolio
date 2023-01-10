@@ -1,4 +1,4 @@
-Welcome to my portfolio!
+Welcome to my portfolio website code!
 
 As I'm creating it, I'm also learning a bit more about React and its inner workings. 
 I've become a bit more acquainted with creating an API and receiving its data, using useState and useEffect, and taking advantage of Javascript and CSS animations to bring you a simple and elegant design with punches of color.

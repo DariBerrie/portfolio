@@ -25,19 +25,22 @@ const App = () => {
     // const url = 'http://localhost:3001'
 
     axios.get(`${url}/projects`).then(response => {
+      console.log(response.data)
       setProjects(response.data)
     })
     axios.get(`${url}/jobs`).then(response => {
+      console.log(response.data)
       setJobs(response.data)
     })
     axios.get(`${url}/schools`).then(response => {
+      console.log(response.data)
       setSchools(response.data)
     })
 
     window.onload = (e) => {
-      setTimeout(() => {
-        setLoading(!e.isTrusted)
-      }, '4000')
+        setTimeout(() => {
+            setLoading(!e.isTrusted)
+        }, '4000')
     }
   }
   useEffect(hook, [])

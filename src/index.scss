@@ -4,6 +4,7 @@
 @import "./stylesheets/job.scss";
 @import "./stylesheets/interests.scss";
 @import "./stylesheets/skills.scss";
+@import "./stylesheets/fade.scss";
 
 * {
   box-sizing: border-box;
@@ -58,6 +59,14 @@ a, .nav-link {
   h2 {
     text-align: center;
   }
+}
+
+#app {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 code {

@@ -2,7 +2,7 @@ const Project = ({project}) => {
 
   const handleMouseEnter = (event) => {
     event.target.style.backgroundImage = `linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,0.1)), url(${project.img})`
-    event.target.style.backgroundSize = "contain"
+    event.target.style.backgroundSize = "cover"
     event.target.innerHTML = `
       <h4><a href=${project.url} target="_blank" rel="noreferrer">${project.name.toUpperCase()}</a></h4>
       <h4 class="fw-bold"><a href=${project.github} target="_blank" rel="noreferrer">GITHUB</a></h4>

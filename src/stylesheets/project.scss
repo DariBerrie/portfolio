@@ -37,6 +37,9 @@
 
 @media(min-width:800px){
 
+h2.my-4 {
+  font-size: 3em;
+}
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -45,7 +48,7 @@
 
 .card {
   position:relative;
-  width: 400px;
+  width: 500px;
   height: 290px;
   padding: 1.5em;
   margin-right:0;

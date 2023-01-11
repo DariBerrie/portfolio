@@ -37,10 +37,10 @@ const App = () => {
       setSchools(response.data)
       setTimeout(() => {
         setLoading(false)
-    }, '4000')
+    }, '5000')
     })
   }
-  useEffect(hook, [])
+  useEffect(hook, [loading])
 
   return (
 

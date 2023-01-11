@@ -15,7 +15,7 @@ const Contact = ({project_sec, skill_sec, exp_sec}) => {
       <li className="nav-link" onClick={() => scrollToSection(exp_sec)}>experience</li>
       <li><a href="https://www.linkedin.com/in/darigoldman"
              target="_blank" rel="noreferrer">linkedin</a></li>
-      <li><a href="https:www.github.com/DariBerrie"
+      <li><a href="https://www.github.com/DariBerrie"
              target="_blank" rel="noreferrer">github</a></li>
       <li><a href="mailto:darigoldman@gmail.com?subject=Hi, I loved your website!">email</a></li>
     </ul>

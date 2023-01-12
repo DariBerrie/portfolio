@@ -35,9 +35,10 @@ const App = () => {
     axios.get(`${url}/schools`).then(response => {
       console.log(response.data)
       setSchools(response.data)
-      setTimeout(() => {
-        setLoading(false)
-    }, '5000')
+    //   setTimeout(() => {
+    //     setLoading(false)
+    // }, '5000')
+      setLoading(false)
     })
   }
   useEffect(hook, [loading])
@@ -47,7 +48,7 @@ const App = () => {
     <div id="app">
       {
         loading ?  (
-          <span className="fade-out" style={{padding:'40vh 0 0 0'}}>
+          <span style={{padding:'40vh 0 0 0'}}>
           <PacmanLoader
             size ={50}
             color={'black'}

@@ -90,7 +90,7 @@ const App = () => {
             </div>
           </div>
         </div>
-        <p className="text-center">Built by me with <span style={{color: '#8c52ff'}}>♥</span>, React & Node.js</p>
+        <p className="text-center">Built by me with <span style={{color: '#8c52ff'}}>♥</span> & React.</p>
       </div>
         )
       }

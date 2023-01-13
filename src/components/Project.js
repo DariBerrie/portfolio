@@ -10,6 +10,8 @@ const Project = ({project}) => {
   }
 
   const handleMouseLeave = (event) => {
+    event.target.style.backgroundImage = `linear-gradient(rgba(255,255,255,),rgba(255,255,255,0.1)), url(${project.img})`
+    event.target.style.backgroundSize = "cover"
     event.target.style.background = 'white'
     event.target.innerHTML = `
       <h4><a href=${project.url} target="_blank" rel="noreferrer">${project.name.toUpperCase()}</a></h4>

@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div id="header">
       <h1 id="name">DARI GOLDMAN</h1>
-      <h2 id="title">Full-Stack Web Developer & Client Relations Expert</h2>
+      <h2 id="title">Full stack web developer with the midas touch</h2>
       <Summary />
     </div>
   )

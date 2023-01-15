@@ -26,6 +26,7 @@ const Project = ({project}) => {
 
   return (
     <div className="card project col-12 col-lg-6"
+          style = {{backgroundImage: `${project.img}`, backgroundColor: 'white'}}
           onMouseEnter = {handleMouseEnter}
           onMouseLeave= {handleMouseLeave}>
       <h4><a href={project.url} target="_blank" rel="noreferrer">{project.name.toUpperCase()}</a></h4>

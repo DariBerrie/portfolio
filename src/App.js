@@ -35,10 +35,10 @@ const App = () => {
     axios.get(`${url}/schools`).then(response => {
       console.log(response.data)
       setSchools(response.data)
-    //   setTimeout(() => {
-    //     setLoading(false)
-    // }, '5000')
-      setLoading(false)
+      setTimeout(() => {
+        setLoading(false)
+    }, '5000')
+      // setLoading(false)
     })
   }
   useEffect(hook, [loading])
@@ -49,12 +49,12 @@ const App = () => {
       {
         loading ?  (
           <div style={{padding:'35vh 0 0 0'}}>
-              <p className="mb-2 text-center animate__animated animate__flash animate__slower animate__infinite">api loading...</p>
               <PacmanLoader
                 size ={50}
                 color={'black'}
                 loading={loading}  />
-              <p className="mt-5 text-center text-muted">If the page doesn't load in 10 seconds, refresh.</p>
+              <p className="mt-5 mb-2 text-muted animate__animated animate__flash animate__slower animate__infinite">api loading...</p>
+              <p className="mt-2 text-muted">If the page doesn't load in 10 seconds, refresh.</p>
           </div> ) : (
       <div className="container fade-in">
         <div id="heading" className="d-flex flex-column align-items-center">

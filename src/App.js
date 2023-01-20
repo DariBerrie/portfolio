@@ -48,12 +48,14 @@ const App = () => {
     <div id="app">
       {
         loading ?  (
-          <span style={{padding:'40vh 0 0 0'}}>
-          <PacmanLoader
-            size ={50}
-            color={'black'}
-            loading={loading}  />
-          </span> ) : (
+          <div style={{padding:'35vh 0 0 0'}}>
+              <p className="mb-2 text-center animate__animated animate__flash animate__slower animate__infinite">api loading...</p>
+              <PacmanLoader
+                size ={50}
+                color={'black'}
+                loading={loading}  />
+              <p className="mt-2 text-center">If the page doesn't load in 10 seconds, refresh.</p>
+          </div> ) : (
       <div className="container fade-in">
         <div id="heading" className="d-flex flex-column align-items-center">
           <Contact project_sec={project_sec} skill_sec={skill_sec} exp_sec={exp_sec} />

@@ -54,7 +54,7 @@ const App = () => {
                 size ={50}
                 color={'black'}
                 loading={loading}  />
-              <p className="mt-2 text-center">If the page doesn't load in 10 seconds, refresh.</p>
+              <p className="mt-5 text-center text-muted">If the page doesn't load in 10 seconds, refresh.</p>
           </div> ) : (
       <div className="container fade-in">
         <div id="heading" className="d-flex flex-column align-items-center">

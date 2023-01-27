@@ -35,10 +35,10 @@ const App = () => {
     axios.get(`${url}/schools`).then(response => {
       console.log(response.data)
       setSchools(response.data)
-      setTimeout(() => {
-        setLoading(false)
-    }, '5000')
-      // setLoading(false)
+    //   setTimeout(() => {
+    //     setLoading(false)
+    // }, '5000')
+      setLoading(false)
     })
   }
   useEffect(hook, [loading])

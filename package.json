@@ -16,6 +16,7 @@
     "react-scripts": "^5.0.1",
     "react-spinners": "^0.13.7",
     "sass": "^1.57.1",
+    "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

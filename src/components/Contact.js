@@ -17,7 +17,7 @@ const Contact = ({project_sec, skill_sec, exp_sec}) => {
              target="_blank" rel="noreferrer">linkedin</a></li>
       <li><a href="https://www.github.com/DariBerrie"
              target="_blank" rel="noreferrer">github</a></li>
-      <li><a href="mailto:darigoldman@gmail.com?subject=Hi, I loved your website!">email</a></li>
+      <li><a href="mailto:hello@dari.codes?subject=Hi, I loved your website!">email</a></li>
     </ul>
   )
 }

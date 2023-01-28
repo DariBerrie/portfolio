@@ -6,6 +6,9 @@
 @import "./stylesheets/skills.scss";
 @import "./stylesheets/fade.scss";
 
+:root {
+  --animate-delay: 1.5s;
+}
 * {
   box-sizing: border-box;
   padding: 0;

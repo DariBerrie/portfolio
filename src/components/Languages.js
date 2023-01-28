@@ -5,7 +5,7 @@ const Languages = () => {
       <p>🇺🇸 : Native speaker <br />
       🇫🇷 : Bilingual</p>
       <h2 className="mt-5">INTERESTS</h2>
-      <p>D🐶g Whispering | Knitting | Co🍳king  | Cycling | Ski | Dan💃🏽e | Golf | Tr🗺vel</p>
+      <p>D🐶g Whispering | Knitting | Cooking  | Cycling | Ski | Dan💃🏽e | Golf | Travel</p>
     </div>
   )
 }

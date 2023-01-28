@@ -1,14 +1,15 @@
 
 import axios from 'axios'
 import { useState, useEffect, useRef } from 'react'
-import Contact from "./components/Contact"
-import Header from "./components/Header"
-import Project from "./components/Project"
+import Contact from './components/Contact'
+import Header from './components/Header'
+import Carousel from './components/Carousel'
 import Job from "./components/Job"
 import Skills from './components/Skills'
 import Languages from './components/Languages'
 import School from './components/School'
 import { PacmanLoader } from 'react-spinners'
+
 
 const App = () => {
   const [loading, setLoading] = useState(true)
@@ -59,18 +60,11 @@ const App = () => {
       <div className="container fade-in">
         <div id="heading" className="d-flex flex-column align-items-center">
           <Contact project_sec={project_sec} skill_sec={skill_sec} exp_sec={exp_sec} />
-          <Header />
+          <Header project_sec={project_sec} />
         </div>
-        <div className="row justify-content-center">
-          <div id="projects-container" ref={project_sec} className="col-12 d-flex flex-column justify-content-center align-items-center mb-5">
-            <h2 className = "my-4">PROJECTS</h2>
-            <div className="projects">
-              {projects.map(project =>
-                <Project key={project.id} project={project} /> )}
-            </div>
-        </div>
-        <div className="row justify-content-between">
-            <div id="skills-container" ref={skill_sec} className="col-12 d-flex flex-row flex-wrap justify-content-center">
+        <Carousel project_sec={project_sec} skill_sec={skill_sec} projects={projects} />
+        <div className="row justify-content-between" ref={skill_sec}>
+            <div id="skills-container" className="col-12 d-flex flex-row flex-wrap justify-content-center mt-5">
               <Skills />
               <div className="card school">
                 <h2 className="mb-2">EDUCATION</h2>
@@ -90,7 +84,6 @@ const App = () => {
               {jobs.map(job =>
                 <Job key={job.id} job={job} />)}
             </div>
-          </div>
         </div>
         <p className="text-center">Built by me with <span style={{color: '#8c52ff'}}>♥</span> & React.</p>
       </div>

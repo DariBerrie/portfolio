@@ -1,5 +1,9 @@
 #header {
-  margin-top:3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:7em;
+  margin-bottom: 15em;
   h2 {
     font-family: 'Quattrocento', serif;
     letter-spacing: 1px;
@@ -12,6 +16,11 @@
 
 #heading {
   position: relative;
+}
+
+#personal-summary {
+  width: 65em;
+  margin-bottom: 8em;
 }
 
 ul#contact-list {
@@ -33,6 +42,9 @@ ul#contact-list {
     margin-right: 16px;
     font-size: 1em;
     padding: 0;
+  }
+  .nav-link {
+    cursor: pointer;
   }
 }
 
@@ -56,5 +68,4 @@ ul#contact-list {
   ul#contact-list {
     align-self: flex-end;
   }
-
 }

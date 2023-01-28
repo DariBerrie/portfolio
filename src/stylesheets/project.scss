@@ -1,13 +1,10 @@
 @media(min-width:300px) {
-  .projects {
-    display: inline-block;
-  }
+
   .card {
-    position:relative;
+    position: relative;
     width: 350px;
     height: 290px;
     padding: 1.5em;
-    margin-right:0;
     margin-bottom: 2em;
     border-radius: 1.5em;
     border-color: rgb(240, 239, 239) !important;
@@ -36,51 +33,71 @@
 }
 
 @media(min-width:800px){
-
-h2.my-4 {
-  font-size: 3em;
-}
-.projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2em;
-}
-
-.card {
-  position:relative;
-  width: 500px;
-  height: 290px;
-  padding: 1.5em;
-  margin-right:0;
-  border-radius: 1.5em;
-  border-color: rgb(240, 239, 239) !important;
-
-  &:hover {
-    box-shadow: 0 .125rem .25rem rgba(black, .075);
-  }
-
-  h4 {
-    letter-spacing: 2px;
-  }
-
-  .dev-skills {
-    position: absolute;
-    bottom: 16px;
+  #projects-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 7em;
+    margin-bottom: 15em;
+  }
 
-    i {
-      font-size:28px;
-      margin-right: 4px;
+  #projects-header {
+    font-size: 3em;
+  }
+
+  #projects-summary {
+    width: 55em;
+    font-size: 1.25em;
+  }
+
+  .card {
+    position: relative;
+    width: 550px;
+    height: 340px;
+    padding: 1.5em;
+    border-radius: 1.5em;
+    border-color: rgb(240, 239, 239) !important;
+
+    &:hover {
+      box-shadow: 0 .125rem .25rem rgba(black, .075);
+    }
+
+    h4 {
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 1.25em;
+    }
+
+    .dev-skills {
+      position: absolute;
+      bottom: 16px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      i {
+        font-size:40px;
+        margin-right: 4px;
+      }
     }
   }
-}
 
-#start-date {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
-  font-size: 1.25em;
-  margin-bottom: 4px;
+  #start-date {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    margin-bottom: 4px;
+  }
 }
+.slick-list {
+  padding: 0;
+  overflow: visible;
+}
+.slick-arrow {
+  z-index: 1;
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 40px !important;
+  color: black !important;
 }

@@ -24,7 +24,7 @@ const Project = ({project}) => {
   }
 
   return (
-    <div className="card project col-12 col-lg-6"
+    <div className="card project"
           style = {{backgroundImage: `linear-gradient(rgba(255,255,255,1),rgba(255,255,255,1)), url(${project.img})`, backgroundSize: 'cover'}}
           onMouseEnter = {handleMouseEnter}
           onMouseLeave= {handleMouseLeave}>

@@ -2,7 +2,7 @@ const Interests = () => {
   return (
     <div className="card interests">
       <h2>INTERESTS</h2>
-      <p>D🐶g Whispering | Knitting | Co🍳king  | Cycling | Ski | Dan💃🏽e | Golf | Tr🗺vel</p>
+      <p>D🐶g Whispering | Knitting | Cooking  | Cycling | Ski | Dan💃🏽e | Golf | Tr🗺vel</p>
     </div>
   )
 }

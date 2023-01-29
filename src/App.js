@@ -18,8 +18,7 @@ const App = () => {
   const [schools, setSchools] = useState([])
 
   const project_sec = useRef(null)
-  const skill_sec = useRef(null)
-  const exp_sec = useRef(null)
+  const skillexp_sec = useRef(null)
 
   const hook = () => {
     const url = 'https://portfolio-api-um8g.onrender.com'
@@ -58,32 +57,31 @@ const App = () => {
               <p className="mt-2 text-muted">If the page doesn't load in 10 seconds, refresh.</p>
           </div> ) : (
       <div className="container fade-in">
-        <div id="heading" className="d-flex flex-column align-items-center">
-          <Contact project_sec={project_sec} skill_sec={skill_sec} exp_sec={exp_sec} />
-          <Header project_sec={project_sec} />
+        <div id="page-one" className="row">
+          <Header project_sec={project_sec} skillexp_sec={skillexp_sec} />
         </div>
-        <Carousel project_sec={project_sec} skill_sec={skill_sec} projects={projects} />
-        <div className="row justify-content-between" ref={skill_sec}>
-            <div id="skills-container" className="col-12 d-flex flex-row flex-wrap justify-content-center mt-5">
-              <Skills />
-              <div className="card school">
-                <h2 className="mb-2">EDUCATION</h2>
-                {schools.map(school =>
-                  <School key={school.id} school={school} />
-                  )}
-              </div>
-              <div className="d-flex flex-column">
-                <Languages />
-              </div>
+        <div id="page-two" className="row">
+        <Carousel project_sec={project_sec} skillexp_sec={skillexp_sec} projects={projects} />
+        </div>
+        <div id="page-three" ref={skillexp_sec} className="row">
+          <div id="skills-container" className="col-12 d-flex flex-row flex-wrap justify-content-center mt-5">
+            <Skills />
+            <div className="card school">
+              <h2 className="mb-2">EDUCATION</h2>
+              {schools.map(school =>
+                <School key={school.id} school={school} />
+                )}
             </div>
-        </div>
-        <div className="row">
-            <div id="jobs-container" ref={exp_sec} className="col-12 d-flex flex-column align-items-center">
-              <h2 className="my-4">PROFESSIONAL EXPERIENCE</h2>
+            <Languages />
+          </div>
+          <div className="row">
+            <div id="jobs-container" className="col-12 d-flex flex-column align-items-center">
+              <h2 className="my-4 text-center">PROFESSIONAL EXPERIENCE</h2>
               <img id="people-person-img" src="people-person-img.png" alt="I'm a human essential oil diffuser!" />
               {jobs.map(job =>
                 <Job key={job.id} job={job} />)}
             </div>
+          </div>
         </div>
         <p className="text-center">Built by me with <span style={{color: '#8c52ff'}}>♥</span> & React.</p>
       </div>

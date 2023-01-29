@@ -1,17 +1,18 @@
+import Contact from "./Contact"
 import Summary from "./Summary"
 import Typed from 'typed.js'
 import React from 'react'
 import Image from 'react-bootstrap/Image'
 
-const scrollToSection = (elementRef) => {
-  console.log(elementRef.current.offsetTop)
-  window.scrollTo({
-    top: (elementRef.current.offsetTop)-48,
-    behavior: 'smooth'
-  })
-}
+// const scrollToSection = (elementRef) => {
+//   console.log(elementRef.current.offsetTop)
+//   window.scrollTo({
+//     top: (elementRef.current.offsetTop)-48,
+//     behavior: 'smooth'
+//   })
+// }
 
-const Header = ({project_sec}) => {
+const Header = ({project_sec, skillexp_sec}) => {
   const el = React.useRef(null)
   const typed = React.useRef(null)
   React.useEffect(() => {
@@ -31,13 +32,14 @@ const Header = ({project_sec}) => {
 
   return (
     <div id="header">
-      <Image roundedCircle src="DariPortfolio.jpeg" alt="Headshot of Dari" style={{width: "13em", marginBottom:"2em"}}/>
+      <Image roundedCircle src="DariPortfolio.jpeg" alt="Headshot of Dari"/>
       <h1 id="name" className="text-center">DARI GOLDMAN</h1>
       <h2 id="title" style={{height:'40px', textAlign: 'center'}}><span style={{whiteSpace: 'normal'}} ref={el} /></h2>
       <Summary />
-      <Image src="down-arrow.png" alt="Down Arrow to Projects" style={{width: "3em", cursor: "pointer"}}
-             className="animate__animated animate__bounce animate__delay-5s"
-             onClick={() => scrollToSection(project_sec)} />
+      <Contact project_sec={project_sec} skillexp_sec={skillexp_sec} />
+      {/* <Image src="down-arrow.png" alt="Down Arrow to Projects"
+             className="down-arrow animate__animated animate__bounce animate__delay-5s"
+             onClick={() => scrollToSection(project_sec)} /> */}
     </div>
   )
 }

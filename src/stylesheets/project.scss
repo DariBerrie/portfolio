@@ -1,29 +1,48 @@
-#projects-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+#page-two {
+  display:flex;
+  align-self: center;
+  min-height: 75vh;
+  padding-bottom:5vh;
+  margin-bottom:3vh;
+  border-bottom: dashed 1px black;
+
+  .projects {
+    display: inline-flex;
+  }
+
+  .slick-list {
+    padding: 0;
+    overflow: visible;
+    padding-left: .75em;
+    width: 100vw !important;
+  }
+  ul.slick-dots {
+    margin-left: 0;
+  }
 }
 
 @media(min-width:300px) {
+  #page-two {
+    h2 { font-size: 2em; }
+    p { font-size: 1.175em; }
+    .card {
+      height: 316px;
+      p { font-size: 1.05em; }
+    }
+  }
 
   .card {
     position: relative;
     width: 350px;
     height: 290px;
+    margin-bottom: 1em;
     padding: 1.5em;
-    margin-bottom: 2em;
     border-radius: 1.5em;
     border-color: rgb(240, 239, 239) !important;
 
-    &:hover {
-      box-shadow: 0 .125rem .25rem rgba(black, .075);
-    }
+    &:hover { box-shadow: 0 .125rem .25rem rgba(black, .075); }
 
-    h4 {
-      letter-spacing: 2px;
-    }
+    h4 { letter-spacing: 2px; }
 
     .dev-skills {
       position: absolute;
@@ -41,35 +60,24 @@
 }
 
 @media(min-width:800px){
-
-  #projects-header {
-    font-size: 3em;
-  }
-
-  #projects-summary {
+  h2#projects-header { font-size: 3em; }
+  p#projects-summary {
     width: 55em;
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
-
-  .card {
+  #projects .card {
     position: relative;
     width: 550px;
     height: 340px;
     padding: 1.5em;
+    margin: 1.5em;
     border-radius: 1.5em;
     border-color: rgb(240, 239, 239) !important;
 
-    &:hover {
-      box-shadow: 0 .125rem .25rem rgba(black, .075);
-    }
+    &:hover { box-shadow: 0 .125rem .25rem rgba(black, .075); }
 
-    h4 {
-      letter-spacing: 2px;
-    }
-
-    p {
-      font-size: 1.25em;
-    }
+    h4 { letter-spacing: 2px; }
+    p { font-size: 1.25em; }
 
     .dev-skills {
       position: absolute;
@@ -91,26 +99,4 @@
     font-size: 1.25em;
     margin-bottom: 4px;
   }
-}
-
-.slick-list {
-  padding: 0;
-  overflow: visible;
-  width: 100% !important;
-}
-ul.slick-dots {
-  margin-left: -1em;
-}
-.slick-arrow {
-  z-index: 1;
-}
-.slick-next {
-  right: -20vw !important;
-}
-.slick-prev {
-  left: -20vw !important;
-}
-.slick-prev:before, .slick-next:before {
-  font-size: 40px !important;
-  color: black !important;
 }

@@ -48,28 +48,29 @@ a, .nav-link {
 }
 
 .container {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-bottom: 4vh;
 }
 
 #experience-container {
-  h2{
-    text-align: center;
-  }
+  h2 { text-align: center; }
 }
 
 #skills-container {
-  h2 {
-    text-align: center;
-  }
+  h2 { text-align: center; }
+}
+
+.down-arrow {
+  width: 3em;
+  cursor: pointer;
 }
 
 #app {
+  position:relative;
   display:flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100%;
+  height: auto;
 }
 
 code {

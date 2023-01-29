@@ -6,16 +6,16 @@ const Contact = ({project_sec, skillexp_sec}) => {
       behavior: 'smooth'
     })
   }
-  const fixList = () => {
-    const contacts = document.getElementById("contacts")
-    console.log(contacts.getBoundingClientRect().top)
-    if (contacts.getBoundingClientRect().top <= 69) {
-      console.log("Line met!")
-      // contacts.setAttribute('style', "position: fixed; top:0px;")
-      // console.log(contacts)
-    }
-  }
-  document.addEventListener('scroll', fixList)
+  // const fixList = () => {
+  //   const contacts = document.getElementById("contacts")
+  //   console.log(contacts.getBoundingClientRect().top)
+  //   if (contacts.getBoundingClientRect().top <= 69) {
+  //     console.log("Line met!")
+  //     // contacts.setAttribute('style', "position: fixed; top:0px;")
+  //     // console.log(contacts)
+  //   }
+  // }
+  // document.addEventListener('scroll', fixList)
 
   return (
    <div id="contacts">

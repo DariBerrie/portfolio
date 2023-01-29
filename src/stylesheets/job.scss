@@ -71,6 +71,7 @@
 }
 
 @media(min-width:900px) {
+  h2#job-header { font-size: 3em; }
   .card.job {
     width: 828px;
     height: 250px;
@@ -90,7 +91,7 @@
       visibility:visible;
       position: absolute;
       width:230px;
-      top: -4em;
+      top: -2em;
       right: 4em;
       z-index:1;
     }

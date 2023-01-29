@@ -64,7 +64,8 @@ const App = () => {
         <Carousel project_sec={project_sec} skillexp_sec={skillexp_sec} projects={projects} />
         </div>
         <div id="page-three" ref={skillexp_sec} className="row">
-          <div id="skills-container" className="col-12 d-flex flex-row flex-wrap justify-content-center mt-5">
+          <h2 id="skills-header">SKILLS</h2>
+          <div id="skills-container" className="col-12 d-flex flex-row flex-wrap justify-content-center">
             <Skills />
             <div className="card school">
               <h2 className="mb-2">EDUCATION</h2>
@@ -76,7 +77,7 @@ const App = () => {
           </div>
           <div className="row">
             <div id="jobs-container" className="col-12 d-flex flex-column align-items-center">
-              <h2 className="my-4 text-center">PROFESSIONAL EXPERIENCE</h2>
+              <h2 id="job-header" className="my-4 text-center">PROFESSIONAL EXPERIENCE</h2>
               <img id="people-person-img" src="people-person-img.png" alt="I'm a human essential oil diffuser!" />
               {jobs.map(job =>
                 <Job key={job.id} job={job} />)}

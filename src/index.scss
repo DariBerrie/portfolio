@@ -56,7 +56,11 @@ a, .nav-link {
 }
 
 #skills-container {
+  border-bottom: dashed 1px black;
+  padding-bottom: 3vh;
+  margin-bottom: 3vh;
   h2 { text-align: center; }
+
 }
 
 .down-arrow {

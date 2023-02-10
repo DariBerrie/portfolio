@@ -32,11 +32,10 @@ const Header = ({project_sec, skillexp_sec}) => {
 
   return (
     <div id="header">
-      <Image roundedCircle src="DariPortfolio.jpeg" alt="Headshot of Dari"/>
+      <Image roundedCircle src="Dari Large.jpeg" alt="Headshot of Dari"/>
       <h1 id="name" className="text-center">DARI GOLDMAN</h1>
       <h2 id="title" style={{height:'40px', textAlign: 'center'}}><span style={{whiteSpace: 'normal'}} ref={el} /></h2>
       <Summary />
-      <Contact project_sec={project_sec} skillexp_sec={skillexp_sec} />
       {/* <Image src="down-arrow.png" alt="Down Arrow to Projects"
              className="down-arrow animate__animated animate__bounce animate__delay-5s"
              onClick={() => scrollToSection(project_sec)} /> */}

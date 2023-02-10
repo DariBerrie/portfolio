@@ -48,6 +48,7 @@ a, .nav-link {
 }
 
 .container {
+  position:relative;
   padding-bottom: 4vh;
 }
 
@@ -56,7 +57,7 @@ a, .nav-link {
 }
 
 #skills-container {
-  border-bottom: dashed 1px black;
+  border-bottom: dashed 20px #d1bdf8;
   padding-bottom: 3vh;
   margin-bottom: 3vh;
   h2 { text-align: center; }

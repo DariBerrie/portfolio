@@ -50,13 +50,16 @@ const App = () => {
         loading ?  (
           <div style={{padding:'35vh 0 0 0'}}>
               <PacmanLoader
-                size ={50}
+                size ={20}
                 color={'black'}
                 loading={loading}  />
-              <p className="mt-5 mb-2 text-muted animate__animated animate__flash animate__slower animate__infinite">api loading...</p>
+              <p className="mt-5 mb-2 text-muted animate__animated animate__flash animate__slower animate__infinite"
+                  style={{padding: '0 0 0 20vw'}}>
+                api loading...</p>
               <p className="mt-2 text-muted">If the page doesn't load in 10 seconds, refresh.</p>
           </div> ) : (
       <div className="container fade-in">
+         <Contact project_sec={project_sec} skillexp_sec={skillexp_sec} />
         <div id="page-one" className="row">
           <Header project_sec={project_sec} skillexp_sec={skillexp_sec} />
         </div>

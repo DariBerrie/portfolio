@@ -35,10 +35,10 @@ const App = () => {
     axios.get(`${url}/schools`).then(response => {
       console.log(response.data)
       setSchools(response.data)
-    //   setTimeout(() => {
-    //     setLoading(false)
-    // }, '5000')
-      setLoading(false)
+      setTimeout(() => {
+        setLoading(false)
+    }, '5000')
+      // setLoading(false)
     })
   }
   useEffect(hook, [loading])
@@ -53,8 +53,8 @@ const App = () => {
                 size ={20}
                 color={'black'}
                 loading={loading}  />
-              <p className="mt-5 mb-2 text-muted animate__animated animate__flash animate__slower animate__infinite"
-                  style={{padding: '0 0 0 20vw'}}>
+              <p className="mt-3 mb-2 text-muted animate__animated animate__flash animate__slower animate__infinite"
+                  style={{padding: '0 0 0 15vw'}}>
                 api loading...</p>
               <p className="mt-2 text-muted">If the page doesn't load in 10 seconds, refresh.</p>
           </div> ) : (

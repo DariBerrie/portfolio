@@ -57,7 +57,7 @@ const Carousel = ({project_sec, skill_sec, projects}) => {
         with Node.js and React.</p>
 
         <div id="projects" className="d-flex flex-row flex-wrap justify-content-center">
-          {projects.map(project =>
+          {projects.reverse().map(project =>
             <Project key={project.id} project={project} /> )}
         </div>
 

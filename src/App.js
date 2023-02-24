@@ -82,7 +82,7 @@ const App = () => {
             <div id="jobs-container" className="col-12 d-flex flex-column align-items-center">
               <h2 id="job-header" className="my-4 text-center">PROFESSIONAL EXPERIENCE</h2>
               <img id="people-person-img" src="people-person-img.png" alt="I'm a human essential oil diffuser!" />
-              {jobs.map(job =>
+              {jobs.reverse().map(job =>
                 <Job key={job.id} job={job} />)}
             </div>
           </div>

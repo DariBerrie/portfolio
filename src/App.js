@@ -26,11 +26,11 @@ const App = () => {
 
     axios.get(`${url}/projects`).then(response => {
       console.log(response.data)
-      setProjects(response.data)
+      setProjects(response.data.reverse())
     })
     axios.get(`${url}/jobs`).then(response => {
       console.log(response.data)
-      setJobs(response.data)
+      setJobs(response.data.reverse())
     })
     axios.get(`${url}/schools`).then(response => {
       console.log(response.data)
@@ -82,7 +82,7 @@ const App = () => {
             <div id="jobs-container" className="col-12 d-flex flex-column align-items-center">
               <h2 id="job-header" className="my-4 text-center">PROFESSIONAL EXPERIENCE</h2>
               <img id="people-person-img" src="people-person-img.png" alt="I'm a human essential oil diffuser!" />
-              {jobs.reverse().map(job =>
+              {jobs.map(job =>
                 <Job key={job.id} job={job} />)}
             </div>
           </div>

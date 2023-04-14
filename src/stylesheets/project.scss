@@ -6,8 +6,9 @@
   margin-bottom:3vh;
   border-bottom: dashed 20px #d1bdf8;
 
-  .projects {
-    display: inline-flex;
+  #projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .slick-list {
@@ -23,7 +24,7 @@
 
  .project-img {
   position: absolute;
-  right: 1vw;
+  right: 2vw;
   width: 150px;
   height: 80px;
   object-fit: cover;

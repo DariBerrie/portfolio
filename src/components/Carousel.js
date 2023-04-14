@@ -55,7 +55,7 @@ const Carousel = ({project_sec, projects}) => {
         Take a look at my recent projects! Many are primarily coded with the Ruby on Rails framework, but I'm currently getting comfortable
         with Node.js and React.</p>
 
-        <div id="projects" className="d-flex flex-row flex-wrap justify-content-center">
+        <div id="projects" className="p">
           {projects.map(project =>
             <Project key={project.id} project={project} /> )}
         </div>

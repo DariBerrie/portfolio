@@ -103,7 +103,7 @@ const App = () => {
     "name": "Illuminate",
     "position": "Lead Developer",
     "startDate": "March 2023",
-    "description": "A QR code scanning app improving the beauty shopping experience for the visually-impaired using ZXing Library",
+    "description": "A QR code scanning app improving the beauty shopping experience for the visually-impaired using ZXing Library and submitted to the Estée Lauder Hackathon",
     "url": "https://illuminate-us.onrender.com/",
     "github": "https://github.com/SIFAR101/Illuminate",
     "toolIcons": [

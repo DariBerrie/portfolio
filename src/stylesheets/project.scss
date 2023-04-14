@@ -21,6 +21,25 @@
   }
 }
 
+ .project-img {
+  position: absolute;
+  right: 1vw;
+  width: 150px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 .125rem .25rem rgba(black, .075); 
+  opacity: .4;
+
+  &:hover {
+    opacity: .9;
+  }
+  &:active {
+    opacity: 1;
+    box-shadow: none;
+  }
+}
+
 @media(min-width:300px) {
   #page-two {
     h2 { font-size: 2em; }
@@ -39,6 +58,7 @@
     padding: 1.5em;
     border-radius: 1.5em;
     border-color: rgb(240, 239, 239) !important;
+    z-index: -1;
 
     &:hover { box-shadow: 0 .125rem .25rem rgba(black, .075); }
 
@@ -62,7 +82,7 @@
 @media(min-width:800px){
   h2#projects-header { font-size: 3em; }
   p#projects-summary {
-    width: 55em;
+    width: auto;
     font-size: 1.5em;
   }
   #projects .card {
@@ -73,6 +93,7 @@
     margin: 1.5em;
     border-radius: 1.5em;
     border-color: rgb(240, 239, 239) !important;
+    z-index: 0;
 
     &:hover { box-shadow: 0 .125rem .25rem rgba(black, .075); }
 

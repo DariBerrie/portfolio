@@ -7,7 +7,7 @@ const Summary = () => {
       <p>Hailing from Atlanta, but currently based in France, when I'm not working on new projects, I'm walking my dog,
         cycling around the city, knitting a new sweater, or enjoying a nice meal with friends.<br/>
         Want to work together? Do you just have a question about web development?
-        <a href="mailto:hello@dari.codes?subject=Hi, I loved your website!"> I'd love to hear from you.</a></p>
+        <a href="mailto:hello@dari.codes?subject=Hi, let's work together!"> I'd love to hear from you.</a></p>
     </div>
   )
 }

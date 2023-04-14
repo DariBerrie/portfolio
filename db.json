@@ -2,10 +2,31 @@
   "projects": [
     {
       "id": 1,
+      "name": "Loopy",
+      "position": "Lead Developer",
+      "startDate": "November 2022",
+      "description": "An Airbnb marketplace clone for fiber enthusiasts using Stripe API created at Le Wagon",
+      "url": "http://www.loopy.website",
+      "github": "https://github.com/DariBerrie/loopyex",
+      "toolIcons": [
+        "devicon-ruby-plain colored",
+        "devicon-rails-plain colored",
+        "devicon-postgresql-plain colored",
+        "devicon-heroku-plain colored",
+        "devicon-html5-plain colored",
+        "devicon-css3-plain colored",
+        "devicon-sass-original colored",
+        "devicon-javascript-plain colored",
+        "devicon-bootstrap-plain colored"
+      ],
+      "img": "loopy-horizontal.jpg"
+    },
+    {
+      "id": 2,
       "name": "Ouicity",
       "position": "Lead Developer",
       "startDate": "December 2022",
-      "description": "A web app connecting urban stakeholders with an interactive approach using MapBox API",
+      "description": "A web app connecting urban stakeholders with an interactive approach using MapBox API created at Le Wagon",
       "url": "http://ouicity.me",
       "github": "https://github.com/DariBerrie/ouicity",
       "toolIcons": [
@@ -21,28 +42,7 @@
         "devicon-figma-plain colored",
         "devicon-photoshop-plain colored"
       ],
-      "img": "ouicity-horizontal.png"
-    },
-    {
-      "id": 2,
-      "name": "Loopy",
-      "position": "Lead Developer",
-      "startDate": "November 2022",
-      "description": "An Airbnb marketplace clone for fiber enthusiasts using Stripe API",
-      "url": "http://www.loopy.website",
-      "github": "https://github.com/DariBerrie/loopyex",
-      "toolIcons": [
-        "devicon-ruby-plain colored",
-        "devicon-rails-plain colored",
-        "devicon-postgresql-plain colored",
-        "devicon-heroku-plain colored",
-        "devicon-html5-plain colored",
-        "devicon-css3-plain colored",
-        "devicon-sass-original colored",
-        "devicon-javascript-plain colored",
-        "devicon-bootstrap-plain colored"
-      ],
-      "img": "loopy-horizontal.png"
+      "img": "ouicity-horizontal.jpg"
     },
     {
       "id": 3,
@@ -62,16 +62,16 @@
         "devicon-javascript-plain colored",
         "devicon-bootstrap-plain colored"
       ],
-      "img": "evidens-horizontal.png"
+      "img": "evidens-horizontal.jpg"
     },
     {
       "id": 4,
-      "name": "Maille Stash",
+      "name": "Cover Letter Bot",
       "position": "Solo Developer",
       "startDate": "January 2023",
-      "description": "A visual collection of the my yarn inventory",
-      "url": "#",
-      "github": "#",
+      "description": "A tongue-in-cheek app to poke fun at the hiring process using OpenAI and Quill",
+      "url": "https://cover-letter-bot.onrender.com/",
+      "github": "https://github.com/DariBerrie/cover-letter-bot",
       "toolIcons": [
         "devicon-react-original colored",
         "devicon-nodejs-plain colored",
@@ -81,12 +81,49 @@
         "devicon-javascript-plain colored",
         "devicon-bootstrap-plain colored"
       ],
-      "img": "ouicity-horizontal.png"
+      "img": "cover-horizontal.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Illuminate",
+      "position": "Lead Developer",
+      "startDate": "March 2023",
+      "description": "A QR code scanning app improving the beauty shopping experience for the visually-impaired using ZXing Library",
+      "url": "https://illuminate-us.onrender.com/",
+      "github": "https://github.com/SIFAR101/Illuminate",
+      "toolIcons": [
+        "devicon-ruby-plain colored",
+        "devicon-rails-plain colored",
+        "devicon-postgresql-plain colored",
+        "devicon-figma-plain colored",
+        "devicon-html5-plain colored",
+        "devicon-css3-plain colored",
+        "devicon-sass-original colored",
+        "devicon-javascript-plain colored",
+        "devicon-bootstrap-plain colored"
+      ],
+      "img": "illuminate-horizontal.png"
     }
   ],
   "jobs": [
     {
       "id": 1,
+      "title": "Digital Media Manager",
+      "company": "Club Med Resorts",
+      "dates": "2015-2017",
+      "description": "Oversaw the digital communication and social media accounts for top resorts in Florida, Mexico and Guadeloupe. Transitioned resorts to an information and promotional resort television channel.",
+      "takeaway": "Storytelling | Aesthetic presentation | Resourcefulness | Technical aptitude | Self-directed"
+    },
+    {
+      "id": 2,
+      "title": "Guest Relations Agent & Manager",
+      "company": "Club Med Resorts",
+      "dates": "2017-2019",
+      "description": "Partnered with resort teams to ensure a positive guest experience while meeting sales goals and KPIs in Florida and the French Alps.",
+      "takeaway": "Team management | Adaptable | Quick and effective under pressure | Empathetic | Collaboration | Creativity"
+    },
+    {
+      "id": 3,
       "title": "Customer Happiness Manager",
       "company": "Reedsy",
       "dates": "2020 to present",
@@ -94,20 +131,12 @@
       "takeaway": "Listening & understanding | Strong written communication | Presentation | Problem-solving | Research | Dispute Resolution "
     },
     {
-      "id": 2,
-      "title": "Guest Relations Agent & Manager",
-      "company": "Club Med Resorts",
-      "dates": "2017-2019",
-      "description": "Partenered with resort teams to ensure a positive guest experience while meeting sales goals and KPIs in Florida and the French Alps.",
-      "takeaway": "Team management | Adaptable | Quick and effective under pressure | Empathetic | Collaboration | Creativity"
-    },
-    {
-      "id": 3,
-      "title": "Digital Media Manager",
-      "company": "Club Med Resorts",
-      "dates": "2015-2017",
-      "description": "Oversaw the digital communication and social media accounts for top resorts in Florida, Mexico and Guadelope. Transitioned resorts to an information and promotional resort television channel.",
-      "takeaway": "Storytelling | Aesthetic presentation | Resourcefulness | Technical aptitude | Self-directed"
+      "id": 4,
+      "title": "Teaching Assistant",
+      "company": "Le Wagon",
+      "dates": "January 2023 to present",
+      "description": "Guiding and mentoring students on their journey to becoming full-stack web developers",
+      "takeaway": "Problem-solving | Instructive | Positive | Social & Emotional Intelligence | Adaptability"
     }
   ],
   "interests": [

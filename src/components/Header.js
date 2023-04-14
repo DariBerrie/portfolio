@@ -1,4 +1,3 @@
-import Contact from "./Contact"
 import Summary from "./Summary"
 import Typed from 'typed.js'
 import React from 'react'

@@ -1,7 +1,6 @@
-// import { Image } from 'react-bootstrap'
 import Project from './Project'
 
-const Carousel = ({project_sec, skill_sec, projects}) => {
+const Carousel = ({project_sec, projects}) => {
 
   // const settings = {
   //   className: 'center',
@@ -60,10 +59,6 @@ const Carousel = ({project_sec, skill_sec, projects}) => {
           {projects.map(project =>
             <Project key={project.id} project={project} /> )}
         </div>
-
-        {/* <Image src="down-arrow.png" alt="Down Arrow to Projects"
-          className="down-arrow animate__animated animate__bounce animate__delay-5s align-self-center"
-          onClick={() => scrollToSection(skill_sec)} /> */}
       </div>
   )
 }

@@ -151,7 +151,15 @@ const App = () => {
       "company": "Le Wagon",
       "dates": "January 2023 to present",
       "description": "Guiding and mentoring students on their journey to becoming full-stack web developers",
-      "takeaway": "Problem-solving | Instructive | Positive | Social & Emotional Intelligence | Adaptability"
+      "takeaway": "Problem-solving | Instructive | Positive | Social & Emotional Intelligence | Adaptable"
+    },
+    {
+      "id": 4,
+      "title": "Technical Support Engineer",
+      "company": "ViaEurope",
+      "dates": "July 2023 to present",
+      "description": "Investigating, troubleshooting and solving complex production application issues while fulfilling business support requests dealing in large scale international shipment processing.",
+      "takeaway": "Dogged | Analytical | Adaptable | Client-focused"
     }
   ]
   const schools = [
